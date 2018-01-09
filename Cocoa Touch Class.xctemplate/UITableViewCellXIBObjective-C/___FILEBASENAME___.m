@@ -28,6 +28,8 @@
 
 #pragma mark - --Gesture Event Response
 
+#pragma mark - --Timer Event Response
+
 #pragma mark - System Delegate
 
 #pragma mark - Custom Delegate
@@ -37,8 +39,8 @@
 #pragma mark - Private Function
 
 #pragma mark - Getter and Setter
-#pragma mark - --Getter
-
 #pragma mark - --Setter
+
+#pragma mark - --Getter
 
 @end
