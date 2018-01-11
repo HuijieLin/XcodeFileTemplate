@@ -19,6 +19,8 @@
 #pragma mark - Initial Function
 - (void)awakeFromNib {
     [super awakeFromNib];
+    
+    [self setupSubViews];
 }
 
 #pragma mark - Event Response
@@ -37,6 +39,9 @@
 #pragma mark - Public Function
 
 #pragma mark - Private Function
+- (void)setupSubViews {
+    
+}
 
 #pragma mark - Getter and Setter
 #pragma mark - --Setter

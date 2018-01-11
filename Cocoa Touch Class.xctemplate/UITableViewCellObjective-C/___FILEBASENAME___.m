@@ -15,6 +15,10 @@
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
 #pragma mark - Life Cycle
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    
+}
 
 #pragma mark - Initial Function
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
@@ -31,11 +35,6 @@
     [super awakeFromNib];
     
     [self setupSubViews];
-}
-
-- (void)layoutSubviews {
-    [super layoutSubviews];
-    
 }
 
 #pragma mark - Event Response
